@@ -1,6 +1,6 @@
-# Self-Balancing Bicycle
+# Reaction-Wheel-Balanced Bicycle (REWBI)
 
-A low-cost self-balancing bicycle platform developed for control research and education at UFMG.
+A low-cost reaction-wheel-balanced bicycle platform developed for control research and education at UFMG.
 
 This project is released under the MIT License.  
 Copyright (c) 2024 GTI - UFMG
@@ -43,13 +43,13 @@ Copyright (c) 2024 GTI - UFMG
 
 - **Arduino IDE Configuration.txt** → ESP32 development board IDE configuration guide.
 - **Component List.txt** → All project components.
-- **SBB 3D printing files/** → 3D printable CAD models for physical parts.
+- **3D printing files/** → 3D printable CAD models for physical parts.
 - **Arduino codes/** → ESP32 firmware and experiment code:
-  - **Balance/**: Main LQR balancing code (`LQR.ino`).
+  - **Balance/LQR/**: Main LQR balancing code (`LQR.ino`).
   - **Experiments/**: Test sketches for controller and hardware:
-    - `LQR_experiment.ino`: Experimental LQR control and data collection.
-    - `test_components.ino`: Individual component testing.
-  - **Xbox/**: Joystick (Xbox) remote control (`xbox.ino`).
+    - `LQR_experiment/LQR_experiment.ino`: Experimental LQR control and data collection.
+    - `test_components/test_components.ino`: Individual component testing.
+  - **Xbox/xbox/**: Joystick (Xbox) remote control (`xbox.ino`).
 - **Python codes/** → Notebooks and scripts for analysis:
   - `Balance_LQR_Controller_Design.ipynb`: LQR controller design and simulation.
   - `Velocity_PI_Controller_Design.ipynb`: Velocity PI controller design.
@@ -61,15 +61,15 @@ Copyright (c) 2024 GTI - UFMG
 <table>
   <tr>
     <td align="center" width="50%" border="1" cellpadding="12">
-      <img src="/SBB images/bia.png" alt="Assembled self-balancing bicycle prototype" width="100%"/>
+      <img src="Images/REWBI.png" alt="Assembled REWBI prototype" width="100%"/>
     </td>
     <td align="center" width="50%" border="1" cellpadding="12">
-      <img src="/SBB images/esquematico.png" alt="ESP32 wiring and electronics diagram" width="100%"/>
+      <img src="Images/diagram.png" alt="ESP32 wiring and electronics diagram" width="100%"/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <em>Assembled self-balancing bicycle prototype.</em>
+      <em>Assembled REWBI prototype.</em>
     </td>
     <td align="center">
       <em>ESP32 wiring and electronics diagram.</em>
@@ -93,7 +93,7 @@ Copyright (c) 2024 GTI - UFMG
     </div>
     <img
       src="https://img.youtube.com/vi/5PImU6t4usI/maxresdefault.jpg"
-      alt="Self-Balancing Bicycle demonstration video"
+      alt="REWBI demonstration video"
       width="600"
       style="display: block; border: 1px solid #d0d7de;"
     />
