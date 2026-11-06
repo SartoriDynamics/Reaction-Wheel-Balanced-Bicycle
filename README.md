@@ -48,6 +48,7 @@ Copyright (c) 2024 GTI - UFMG
   - **Balance/LQR/**: Main LQR balancing code (`LQR.ino`).
   - **Experiments/**: Test sketches for controller and hardware:
     - `LQR_experiment/LQR_experiment.ino`: Experimental LQR control and data collection.
+    - `Velocity_experiment/Velocity_experiment.ino`: Experimental PI velocity control and data collection.
     - `test_components/test_components.ino`: Individual component testing.
   - **Xbox/xbox/**: Joystick (Xbox) remote control (`xbox.ino`).
 - **Python codes/** → Notebooks and scripts for analysis:
